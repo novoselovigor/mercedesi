@@ -3,8 +3,8 @@
   <panorama hideabout="1" id="node2">
     <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelbias="0.400" height="2048" leveltilesize="510" width="2048" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
       <level height="2048" preload="0" width="2048" predecode="0"/>
-      <level height="1024" preload="0" width="1024" predecode="0"/>
-      <level height="512" preload="0" width="512" predecode="0"/>
+      <level height="1024" preload="1" width="1024" predecode="0"/>
+      <level height="512" preload="1" width="512" predecode="0"/>
       <level height="256" preload="1" width="256" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
@@ -41,15 +41,15 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" enabled="1" zoomfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomspeed="2"/>
+    <transition softedge="0" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" enabled="0" zoomfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomspeed="2"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
     <control rubberband="1" lockedmouse="0" invertwheel="0" speedwheel="1" hideabout="1" invertcontrol="1" contextprojections="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0"/>
   </panorama>
   <panorama hideabout="1" id="node1">
     <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelbias="0.400" height="2048" leveltilesize="510" width="2048" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
       <level height="2048" preload="0" width="2048" predecode="0"/>
-      <level height="1024" preload="0" width="1024" predecode="0"/>
-      <level height="512" preload="0" width="512" predecode="0"/>
+      <level height="1024" preload="1" width="1024" predecode="0"/>
+      <level height="512" preload="1" width="512" predecode="0"/>
       <level height="256" preload="1" width="256" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
@@ -88,15 +88,15 @@
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" enabled="1" zoomfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomspeed="2"/>
+    <transition softedge="0" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" enabled="0" zoomfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomspeed="2"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
     <control rubberband="1" lockedmouse="0" invertwheel="0" speedwheel="1" hideabout="1" invertcontrol="1" contextprojections="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0"/>
   </panorama>
   <panorama hideabout="1" id="node3">
     <input levelbiashidpi="1.000" overlap="1" levelingroll="0" levelbias="0.400" height="2048" leveltilesize="510" width="2048" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0">
       <level height="2048" preload="0" width="2048" predecode="0"/>
-      <level height="1024" preload="0" width="1024" predecode="0"/>
-      <level height="512" preload="0" width="512" predecode="0"/>
+      <level height="1024" preload="1" width="1024" predecode="0"/>
+      <level height="512" preload="1" width="512" predecode="0"/>
       <level height="256" preload="1" width="256" predecode="1"/>
       <preview strip="1" color="0x808080"/>
     </input>
@@ -138,11 +138,11 @@
       <hotspot title="Willkommen!" pan="-15.24" tilt="12.58" target="" url="" id="Point01" skinid="ht_info" description="Willkommen im virtuellen Showroom für Transporter und Vans von Mercedes-Benz Rhein-Main. Mein Name ist Kevin Danner. Schön, dass Sie bei uns sind!"/>
     </hotspots>
     <media>
-      <video height="1056" field="90.000" clickmode="0" level="1.000" tilt="-0.810" pansize="10.000" ambientlevel="0.000" stretch="1.000" tiltsize="10.000" loop="1" startmutedmobile="1" fov="43.710" id="Element01" handcursor="0" rotx="0.000" mode="1" roty="0.000" rotz="0.000" width="1056" nodechangekeep="0" pan="-32.650">
-        <source url="media/Eq Patch-1.m4v"/>
+      <video height="1056" field="90.000" clickmode="0" level="1.000" tilt="-0.810" pansize="10.000" ambientlevel="0.000" stretch="1.000" tiltsize="10.000" loop="1" startmutedmobile="1" fov="43.710" id="Element01" handcursor="0" rotx="0.000" mode="1" roty="0.000" poster="media/Eq Patch-1_preview.jpg" rotz="0.000" width="1056" nodechangekeep="0" pan="-32.650">
+        <source url="media/EqPatch-1.m4v"/>
       </video>
     </media>
-    <transition softedge="0" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" enabled="1" zoomfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomspeed="2"/>
+    <transition softedge="0" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" type="crossdissolve" blendtime="1" enabled="0" zoomfov="20" zoomafterinfov="90" zoomin="0" zoomout="0" zoomspeed="2"/>
     <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
     <control rubberband="1" lockedmouse="0" invertwheel="0" speedwheel="1" hideabout="1" invertcontrol="1" contextprojections="0" sensitivity="8" lockedkeyboardzoom="0" contextfullscreen="1" lockedwheel="0" dblclickfullscreen="0" simulatemass="1" lockedkeyboard="0"/>
   </panorama>
