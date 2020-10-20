@@ -103,8 +103,8 @@
     <view pannorth="0" fovmode="0">
       <start pan="-18.96" tilt="-2.9" fov="62.04" projection="4"/>
       <flyin pan="0" tilt="-90" fov="170" projection="9"/>
-      <min fovpixel="2" pan="-48.59" tilt="-90"/>
-      <max pan="195.19" tilt="90" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" tilt="90" fov="120" fovfisheye="360" scaletofit="1" fovstereographic="270"/>
     </view>
     <userdata title="Video-Wall" source="" comment="" longitude="" nodeid="node3" latitude="" heading="0" info="" datetime="" customnodeid="" copyright="" author="" description="" tags=""/>
     <hotspots wordwrap="1" height="0" width="150">
