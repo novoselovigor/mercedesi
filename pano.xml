@@ -1,74 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.10" apprev="18007" start="node8">
-  <panorama id="node8" hideabout="1">
-    <input levelbias="0.400" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="2048" leveltilesize="510" overlap="1" levelbiashidpi="1.000" levelingpitch="0" height="2048">
-      <level predecode="0" width="2048" preload="0" height="2048"/>
-      <level predecode="0" width="1024" preload="0" height="1024"/>
-      <level predecode="0" width="512" preload="0" height="512"/>
-      <level predecode="1" width="256" preload="1" height="256"/>
+<tour appversion="6.1.10" apprev="18007" start="node11">
+  <panorama id="node11" hideabout="1">
+    <input levelingpitch="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" height="2048" width="2048" levelbias="0.400" levelbiashidpi="1.000" overlap="1">
+      <level predecode="0" preload="0" height="2048" width="2048"/>
+      <level predecode="0" preload="0" height="1024" width="1024"/>
+      <level predecode="0" preload="0" height="512" width="512"/>
+      <level predecode="1" preload="1" height="256" width="256"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start projection="4" fov="70" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" scaletofit="1" fov="120" pan="360" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata datetime="" copyright="" tags="10-28" title="" nodeid="node8" description="" latitude="" customnodeid="" heading="0" info="" longitude="" source="" author="" comment=""/>
-    <hotspots wordwrap="1" width="150" height="0">
-      <label borderradius="1" border="0" textcolor="0x000000" wordwrap="1" enabled="0" width="150" background="1" bordercolor="0x000000" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" height="0" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <polyhotspot id="Polyinfo" title="" target="_blank" description="Willkommen bei den Transporter- und Van-Experten von Mercedes-Benz Rhein-Main!&#xa;&#xa;Schön, dass Sie bei uns sind. Klicken Sie einfach auf Ihren Standort, um zu Ihrem Ansprechpartner vor Ort zu gelangen.&#xa;Ihr Experte für Transporter und Vans freut sich auf Sie!" url="">
-        <polystring>-320.21/20.71|-11.87/25.69|-12/-22.58|-320.31/-18.02</polystring>
+    <userdata comment="" latitude="" source="" heading="0" title="" copyright="" tags="10-28" nodeid="node11" author="" info="" customnodeid="" description="" datetime="" longitude=""/>
+    <hotspots wordwrap="1" height="0" width="150">
+      <label textcolor="0x000000" enabled="0" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="0" height="0" borderalpha="1" width="150" background="1" borderradius="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1"/>
+      <polyhotspot title="" target="" id="Poly" url="{node9}" description="Willkommen bei den Transporter- und Van-Experten von Mercedes-Benz Rhein-Main!&#xa;&#xa;Schön, dass Sie bei uns sind. Klicken Sie einfach auf Ihren Standort, um zu Ihrem Ansprechpartner vor Ort zu gelangen.&#xa;Ihr Experte für Transporter und Vans freut sich auf Sie">
+        <polystring>-320.12/20.58|-9.4/26.19|-9.46/-16.92|-320.12/-14.13</polystring>
       </polyhotspot>
     </hotspots>
     <media>
-      <video nodechangekeep="0" level="1.000" rotz="0.000" width="1216" loop="1" pansize="10.000" mode="1" clickmode="0" tiltsize="10.000" pan="0.000" rotx="0.000" ambientlevel="0.000" tilt="0.000" id="Element01" roty="0.000" handcursor="0" field="90.000" stretch="1.000" startmutedmobile="1" height="1216" fov="50.000">
-        <source url="media/Brand-welcome2_patch.mp4"/>
+      <video pan="0.000" fov="50.000" rotz="0.000" clickmode="0" roty="0.000" nodechangekeep="0" id="Element01" loop="1" handcursor="0" tiltsize="10.000" stretch="1.000" field="90.000" width="1216" height="1216" mode="1" startmutedmobile="1" pansize="10.000" ambientlevel="0.000" rotx="0.000" tilt="0.000" level="1.000">
+        <source url="media/introdark_patch_1_1.mp4"/>
       </video>
-      <image clickmode="0" id="Element02" rotz="0.000" handcursor="0" rotx="0.000" roty="0.000" fov="50.000" width="1216" pan="0.000" tilt="0.000" height="1216" stretch="1.000">
-        <source url="media/Brand-welcome2_patch-(0-00-00-00).png"/>
-      </image>
     </media>
-    <transition softedge="0" zoomspeed="0.01" zoomafteroutfov="20" zoomin="0" zoomout="0" blendcolor="0x000000" blendtime="0" zoomoutpause="1" enabled="1" type="cut" zoomafterinfov="90" zoomfov="20"/>
+    <transition zoomin="0" enabled="1" zoomout="0" type="cut" zoomafteroutfov="20" blendtime="0" blendcolor="0x000000" zoomoutpause="1" softedge="0" zoomfov="20" zoomafterinfov="90" zoomspeed="0.01"/>
     <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control speedwheel="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" rubberband="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" contextprojections="0" hideabout="1" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="1" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1" invertcontrol="1" hideabout="1"/>
   </panorama>
   <panorama id="node9" hideabout="1">
-    <input levelbias="0.400" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" width="1024" leveltilesize="510" overlap="1" levelbiashidpi="1.000" levelingpitch="0" height="1024">
-      <level predecode="0" width="1024" preload="0" height="1024"/>
-      <level predecode="0" width="512" preload="0" height="512"/>
-      <level predecode="1" width="256" preload="1" height="256"/>
+    <input levelingpitch="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" height="1024" width="1024" levelbias="0.400" levelbiashidpi="1.000" overlap="1">
+      <level predecode="0" preload="0" height="1024" width="1024"/>
+      <level predecode="0" preload="0" height="512" width="512"/>
+      <level predecode="1" preload="1" height="256" width="256"/>
       <preview strip="1" color="0x808080"/>
     </input>
-    <view pannorth="0" fovmode="0">
-      <start projection="4" fov="70" pan="0" tilt="0"/>
-      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-      <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovfisheye="360" scaletofit="1" fov="120" pan="360" tilt="90" fovstereographic="270"/>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
     </view>
-    <userdata datetime="" copyright="" tags="10-28" title="" nodeid="node9" description="" latitude="" customnodeid="" heading="0" info="" longitude="" source="" author="" comment=""/>
-    <hotspots wordwrap="1" width="150" height="0">
-      <label borderradius="1" border="0" textcolor="0x000000" wordwrap="1" enabled="0" width="150" background="1" bordercolor="0x000000" textalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" height="0" borderalpha="1"/>
-      <polystyle handcursor="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
-      <hotspot id="Der Citan" title="Der Citan." target="" description="Unser kleinster Transporter bringt Sie ganz groß raus. Der Held der Stadt ist die ideale Transporter-Lösung für alle, die ein zuverlässiges und wendiges Fahrzeug benötigen, aber auf Komfort nicht verzichten wollen." pan="-271.58" tilt="4.16" url="" skinid="ht_info_noico"/>
-      <hotspot id="Der Vito." title="Der Vito." target="" description="Unser Allrounder. Ob als Kastenwagen, Mixto oder Tourer: Der Vito ist für jeden Bedarf gerüstet und ein echtes Arbeitstier. Natürlich in Mercedes-Benz Qualität, damit die Arbeit auch Spaß macht." pan="-290.93" tilt="3.99" url="" skinid="ht_info_noico"/>
-      <hotspot id="Point01" title="Die X-Klasse." target="" description="Der Mercedes-Benz unter den Pickups: robust, kraftvoll und als funktionaler und zuverlässiger Partner im Arbeitsalltag genauso überzeugend wie als Weggefährte für spontane Freizeitabenteuer." pan="-306.78" tilt="3.41" url="" skinid="ht_info_noico"/>
-      <hotspot id="Point02" title="Der Sprinter." target="" description="Unser Flaggschiff ist nicht nur Namensgeber einer ganzen Fahrzeuggattung. Der Sprinter überzeugt mit jeder Generation aufs Neue durch zahlreiche Innovationen und Extras, die Ihnen das Leben so angenehm wie möglich machen." pan="-5.73" tilt="4.34" url="" skinid="ht_info_noico"/>
-      <hotspot id="Point03" title="Die V-Klasse." target="" description="Unsere Großraumlimousine ist Business- und Freizeit-Van in einem. Genießen Sie die V-Klasse als komfortablen Family Van, Shuttlebus fürs Business oder stilvolles Fahrzeug für Freizeit und Abenteuer." pan="-26.81" tilt="3.9" url="" skinid="ht_info_noico"/>
-      <hotspot id="Point04" title="Der Marco Polo." target="" description="Unser Reisemobil für alle, die den Geschmack von Freiheit und Abenteuer lieben, aber auch auf Reisen nicht auf höchsten Komfort und innovative Technik verzichten wollen." pan="-42.7" tilt="3.24" url="" skinid="ht_info_noico"/>
-      <hotspot id="Point05" title="Sie möchten mehr über den EQV erfahren?" target="" description="Dann klicken Sie &lt;a href=&quot;https://www.mercedes-benz-rhein-main.de/evans/eqv/&quot; target=&quot;_blank&quot;>hier.&lt;/a>&#xa;Oder Sie wenden sich gleich an Ihren Van-Experten vor Ort.&#xa;Er freut sich über Ihren Anruf oder Ihre Mail!" pan="-77.3" tilt="-1.32" url="" skinid="ht_info_noico"/>
-      <hotspot id="Point06" title="" target="" description="" pan="-227.78" tilt="6.38" url="{node8}" skinid="ht_node"/>
-      <polyhotspot id="Poly01" title="1" target="_blank" description="video/EQ.mp4" url="">
+    <userdata comment="" latitude="" source="" heading="0" title="" copyright="" tags="10-28" nodeid="node9" author="" info="" customnodeid="" description="" datetime="" longitude=""/>
+    <hotspots wordwrap="1" height="0" width="150">
+      <label textcolor="0x000000" enabled="0" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="0" height="0" borderalpha="1" width="150" background="1" borderradius="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1"/>
+      <hotspot pan="-271.58" tilt="4.16" title="Der Citan." target="" skinid="ht_info_noico" id="Der Citan" url="" description="Unser kleinster Transporter bringt Sie ganz groß raus. Der Held der Stadt ist die ideale Transporter-Lösung für alle, die ein zuverlässiges und wendiges Fahrzeug benötigen, aber auf Komfort nicht verzichten wollen."/>
+      <hotspot pan="-290.93" tilt="3.99" title="Der Vito." target="" skinid="ht_info_noico" id="Der Vito." url="" description="Unser Allrounder. Ob als Kastenwagen, Mixto oder Tourer: Der Vito ist für jeden Bedarf gerüstet und ein echtes Arbeitstier. Natürlich in Mercedes-Benz Qualität, damit die Arbeit auch Spaß macht."/>
+      <hotspot pan="-306.78" tilt="3.41" title="Die X-Klasse." target="" skinid="ht_info_noico" id="Point01" url="" description="Der Mercedes-Benz unter den Pickups: robust, kraftvoll und als funktionaler und zuverlässiger Partner im Arbeitsalltag genauso überzeugend wie als Weggefährte für spontane Freizeitabenteuer."/>
+      <hotspot pan="-5.73" tilt="4.34" title="Der Sprinter." target="" skinid="ht_info_noico" id="Point02" url="" description="Unser Flaggschiff ist nicht nur Namensgeber einer ganzen Fahrzeuggattung. Der Sprinter überzeugt mit jeder Generation aufs Neue durch zahlreiche Innovationen und Extras, die Ihnen das Leben so angenehm wie möglich machen."/>
+      <hotspot pan="-26.81" tilt="3.9" title="Die V-Klasse." target="" skinid="ht_info_noico" id="Point03" url="" description="Unsere Großraumlimousine ist Business- und Freizeit-Van in einem. Genießen Sie die V-Klasse als komfortablen Family Van, Shuttlebus fürs Business oder stilvolles Fahrzeug für Freizeit und Abenteuer."/>
+      <hotspot pan="-42.65" tilt="3.18" title="Der Marco Polo." target="" skinid="ht_info_noico" id="Point04" url="" description="Unser Reisemobil für alle, die den Geschmack von Freiheit und Abenteuer lieben, aber auch auf Reisen nicht auf höchsten Komfort und innovative Technik verzichten wollen."/>
+      <hotspot pan="-77.3" tilt="-1.32" title="Sie möchten mehr über den EQV erfahren?" target="" skinid="ht_info_noico" id="Point05" url="" description="Dann klicken Sie &lt;a href=&quot;https://www.mercedes-benz-rhein-main.de/evans/eqv/&quot; target=&quot;_blank&quot;>hier.&lt;/a>&#xa;Oder Sie wenden sich gleich an Ihren Van-Experten vor Ort.&#xa;Er freut sich über Ihren Anruf oder Ihre Mail!"/>
+      <hotspot pan="-224.28" tilt="7.65" title="" target="" skinid="ht_node" id="Point06" url="{node11}" description=""/>
+      <polyhotspot title="1" target="_blank" id="Poly01" url="" description="video/EQ.mp4">
         <polystring>-76.09/13.84|-102.27/13.77|-102.45/-0.18|-78.95/-0.29|-77.27/1.11|-76.19/1.19</polystring>
       </polyhotspot>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomspeed="0.01" zoomafteroutfov="20" zoomin="0" zoomout="0" blendcolor="0x000000" blendtime="0" zoomoutpause="1" enabled="1" type="cut" zoomafterinfov="90" zoomfov="20"/>
+    <transition zoomin="0" enabled="1" zoomout="0" type="cut" zoomafteroutfov="20" blendtime="0" blendcolor="0x000000" zoomoutpause="1" softedge="0" zoomfov="20" zoomafterinfov="90" zoomspeed="0.01"/>
     <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
-    <control speedwheel="1" invertcontrol="1" lockedwheel="0" lockedkeyboardzoom="0" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" rubberband="1" lockedkeyboard="0" sensitivity="8" lockedmouse="0" contextprojections="0" hideabout="1" simulatemass="1"/>
+    <control simulatemass="1" invertwheel="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="1" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1" invertcontrol="1" hideabout="1"/>
+  </panorama>
+  <panorama id="node10" hideabout="1">
+    <input levelingpitch="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" height="2048" width="2048" levelbias="0.400" levelbiashidpi="1.000" overlap="1">
+      <level predecode="0" preload="0" height="2048" width="2048"/>
+      <level predecode="0" preload="0" height="1024" width="1024"/>
+      <level predecode="0" preload="0" height="512" width="512"/>
+      <level predecode="1" preload="1" height="256" width="256"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start pan="0" tilt="0" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" tilt="90" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata comment="" latitude="" source="" heading="0" title="" copyright="" tags="10-28" nodeid="node10" author="" info="" customnodeid="" description="" datetime="" longitude=""/>
+    <hotspots wordwrap="1" height="0" width="150">
+      <label textcolor="0x000000" enabled="0" wordwrap="1" bordercolor="0x000000" textalpha="1" backgroundalpha="1" border="0" height="0" borderalpha="1" width="150" background="1" borderradius="1" backgroundcolor="0xffffff"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" backgroundcolor="0x0000ff" handcursor="1"/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" enabled="1" zoomout="0" type="cut" zoomafteroutfov="20" blendtime="0" blendcolor="0x000000" zoomoutpause="1" softedge="0" zoomfov="20" zoomafterinfov="90" zoomspeed="0.01"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control simulatemass="1" invertwheel="0" dblclickfullscreen="0" sensitivity="8" lockedmouse="0" contextprojections="0" rubberband="1" lockedwheel="0" speedwheel="1" lockedkeyboardzoom="0" lockedkeyboard="0" contextfullscreen="1" invertcontrol="1" hideabout="1"/>
   </panorama>
   <masternode>
-    <userdata datetime="" copyright="" tags="" title="" nodeid="master" description="" latitude="" customnodeid="" heading="0" info="" longitude="" source="" author="" comment=""/>
+    <userdata comment="" latitude="" source="" heading="0" title="" copyright="" tags="" nodeid="master" author="" info="" customnodeid="" description="" datetime="" longitude=""/>
   </masternode>
 </tour>
